@@ -1,0 +1,18 @@
+# Interpretación inicial del dataset de California Housing
+
+## ¿Qué creo que representa cada columna?
+
+- `longitude`: longitud geográfica de la zona.
+- `latitude`: latitud geográfica de la zona.
+- `housing_median_age`: edad mediana de las casas en esa área.
+- `total_rooms`: número total de habitaciones en la zona.
+- `total_bedrooms`: número total de dormitorios en la zona.
+- `population`: cantidad de personas que viven en esa zona.
+- `households`: número de hogares (familias/unidades) en la zona.
+- `median_income`: ingreso medio de los residentes (creo que está en decenas de miles de dólares).
+- `median_house_value`: valor medio de las casas en la zona.
+- `ocean_proximity`: qué tan cerca está la zona del océano (categoría).
+
+## ¿Cuál será la variable objetivo (target)?
+
+Creo que la variable objetivo será **`median_house_value`**, porque representa el precio medio de la vivienda en cada zona y es lo que normalmente se quiere predecir en un problema de precios de casas.
