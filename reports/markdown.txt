@@ -16,3 +16,15 @@
 ## ¿Cuál será la variable objetivo (target)?
 
 Creo que la variable objetivo será **`median_house_value`**, porque representa el precio medio de la vivienda en cada zona y es lo que normalmente se quiere predecir en un problema de precios de casas.
+
+
+
+
+## 2. Distribuciones univariadas (EDA de una variable)
+
+En esta sección voy a analizar, una por una, las variables del dataset:
+- Cómo se distribuyen (histogramas).
+- Sus estadísticas básicas (media, mediana, min, max, percentiles).
+- Si están sesgadas (asimetría).
+
+ocean_proximity es categoria porque sus valores son textos y no numeros
