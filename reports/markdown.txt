@@ -13,6 +13,27 @@
 - `median_house_value`: valor medio de las casas en la zona.
 - `ocean_proximity`: qué tan cerca está la zona del océano (categoría).
 
+1. Longitud: Indica la distancia al oeste de una casa; un valor más alto indica que está más al oeste.
+
+2. Latitud: Indica la distancia al norte de una casa; un valor más alto indica que está más al norte.
+
+3. Edad Media de la Vivienda: Edad media de una casa en una manzana; un valor más bajo indica una construcción más nueva.
+
+4. Habitaciones Totales: Número total de habitaciones en una manzana.
+
+5. Dormitorios Totales: Número total de dormitorios en una manzana.
+
+6. Población: Número total de personas que residen en una manzana.
+
+7. Hogares: Número total de hogares, un grupo de personas que residen en una unidad de vivienda, en una manzana.
+
+8. Ingresos Medianos: Ingresos medios de los hogares en una manzana (medidos en decenas de miles de dólares estadounidenses).
+
+9. Valor Mediano de la Casa: Valor medio de la vivienda en una manzana (medido en dólares estadounidenses).
+
+10. Proximidad al Océano: Ubicación de la casa con respecto al océano/mar.
+
+
 ## ¿Cuál será la variable objetivo (target)?
 
 Creo que la variable objetivo será **`median_house_value`**, porque representa el precio medio de la vivienda en cada zona y es lo que normalmente se quiere predecir en un problema de precios de casas.
@@ -28,3 +49,4 @@ En esta sección voy a analizar, una por una, las variables del dataset:
 - Si están sesgadas (asimetría).
 
 ocean_proximity es categoria porque sus valores son textos y no numeros
+
